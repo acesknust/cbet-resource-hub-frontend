@@ -93,7 +93,7 @@ body {
     margin: 5px 5px;
   }
   .content .login-button{
-    margin-left: 0px;
+    margin-left: 20px;
   }
   
 }
@@ -110,10 +110,12 @@ body {
     font-size: 3.5rem;
   }
   .content button{
-    width: 100%;
+    width: 90%;
     margin: 10px 0px;
     background-color: #011298;
     color: white;
+   margin-left: 20px;
+    
   }
   .content .buttons{
     flex-direction: column;
@@ -125,7 +127,9 @@ body {
     -moz-border-radius: 0px;
     -webkit-border-radius: 3px 3px 0px 0px;
     border-radius: 50px 50px 0px 0px;
+    
   }
+  
   .content .logos{
     justify-content: center;
     width: 5%;
@@ -141,10 +145,11 @@ body {
     width: 100%;
     position: absolute; 
     bottom: 0; 
-    padding: 50px 10px;
+    padding: 20px 10px;
     background-color: #fff;
     -moz-border-radius: 0px;
     -webkit-border-radius: 3px 3px 0px 0px;
     border-radius: 50px 50px 0px 0px;
+    justify-content: center;
   }
 }
