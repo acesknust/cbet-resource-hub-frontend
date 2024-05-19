@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from "react";
 import '../signin.css';
 import userIcon from '../assets/user.png';
 import lockIcon from '../assets/lock.png'
@@ -7,6 +7,8 @@ import facebookIcon from '../assets/facebook.png'
 import twitterIcon from '../assets/twitter.png'
 
 const SignIn = () => {
+  const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
 
   return (
     <div className="container">
@@ -31,10 +33,19 @@ const SignIn = () => {
             <img src={lockIcon} alt="Lock" className="icon" />
           </div>
           <input
-            type="password"
             className="input"
             placeholder="Password"
+
+            id="pass"
+            type={
+                showPassword ? "text" : "password"
+            }
+            value={password}
+            onChange={(e) =>
+                setPassword(e.target.value)
+            }
           />
+          <span class="password-toggle-icon"><i class= { showPassword ? "fas fa-eye-slash" : "fas fa-eye"} onClick={() =>setShowPassword((prev) => !prev)}></i></span>
         </div>
         <p className="forgotPassword">Forgot Password?</p>
         <button className="signInButton">Sign In</button>
