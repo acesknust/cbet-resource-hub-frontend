@@ -190,19 +190,20 @@
 /* Media Queries for larger screens */
 @media (min-width: 1058px) {
   .container {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     justify-content: center;
+    overflow-y: auto;
   }
 
   .part2 {
     width: 60%;
     max-width: 600px;
-    height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
     bottom: auto;
-    padding: 40px;
+    padding: 20px;
+    margin: 20px;
   }
 
   .signInText {
@@ -216,7 +217,7 @@
 
   .signInSubText {
     font-size: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding: 0;
   }
 
@@ -226,7 +227,7 @@
 
   .input {
     width: calc(100% - 40px);
-    padding: 15px;
+    /* padding: 15px; */
     border-bottom-width: 3px;
   }
 
@@ -242,7 +243,7 @@
 
   .signInButton {
     width: 30%;
-    padding: 15px;
+    /* padding: 15px; */
     font-size: 16px;
   }
 
@@ -251,13 +252,13 @@
   }
 
   .socialIcons {
-    margin-top: 20px;
+    margin: auto;
   }
 
   .socialIcon {
     width: 30px;
     height: 30px;
-    margin: 10px;
+    /* margin: 10px; */
   }
 
   .signUpText {

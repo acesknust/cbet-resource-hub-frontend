@@ -8,14 +8,17 @@ import twitterIcon from '../assets/twitter.png'
 
 const SignUp = () => {
   const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+
 
   return (
     <div className="container">
-      <h1 className="signInText">Sign in</h1>
+      <h1 className="signInText">Sign up</h1>
       <div className="part2">
-        <h2 className="welcomeText">Welcome back</h2>
-        <p className="signInSubText">Hi there, Sign in to Continue</p>
+        <h2 className="welcomeText">Welcome</h2>
+        <p className="signInSubText">Hi there, Sign up to Continue</p>
         <label className="label">Username or Email</label>
         <div className="formField">
           <div className="iconContainer">
@@ -58,14 +61,14 @@ const SignUp = () => {
 
             id="pass"
             type={
-                showPassword ? "text" : "password"
+                showConfirmPassword ? "text" : "password"
             }
-            value={password}
+            value={confirmPassword}
             onChange={(e) =>
-                setPassword(e.target.value)
+                setConfirmPassword(e.target.value)
             }
           />
-          <span class="password-toggle-icon"><i class= { showPassword ? "fas fa-eye-slash" : "fas fa-eye"} onClick={() =>setShowPassword((prev) => !prev)}></i></span>
+          <span class="password-toggle-icon"><i class= { showConfirmPassword ? "fas fa-eye-slash" : "fas fa-eye"} onClick={() =>setShowConfirmPassword((prev) => !prev)}></i></span>
         </div>
         <button className="signInButton">Sign Up</button>
         <div className="horizontalStroke">
