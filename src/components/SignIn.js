@@ -1,10 +1,11 @@
+import React from 'react'
 import { useState } from "react";
 import '../signin.css';
 import userIcon from '../assets/user.png';
-import lockIcon from '../assets/lock.png'
-import googleIcon from '../assets/google.png'
-import facebookIcon from '../assets/facebook.png'
-import twitterIcon from '../assets/twitter.png'
+import lockIcon from '../assets/lock.png';
+import googleIcon from '../assets/google.png';
+import facebookIcon from '../assets/facebook.png';
+import twitterIcon from '../assets/twitter.png';
 
 const SignIn = () => {
   const [password, setPassword] = useState("");
@@ -57,7 +58,7 @@ const SignIn = () => {
         <div className="socialIcons">
           <img src={googleIcon} alt="Google" className="socialIcon" />
           <img src={facebookIcon} alt="Facebook" className="socialIcon" />
-          <img src={twitterIcon} alt="Twitter" className="socialIcon" />
+         <img src={twitterIcon} alt="Twitter" className="socialIcon" />
         </div>
         <p className="signUpText">
           Don't have an account?{' '}
