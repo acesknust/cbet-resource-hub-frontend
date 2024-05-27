@@ -1,4 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+.container{
+  max-width: 1440px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  height: 90vh;
+}
+.content h2{
+  font-size: 4.5rem;
+  color: #fff;
+  font-family: "ubuntu",sans-serif;
+}
+.content p{
+  color: #fff;
+  line-height: 2;
+  margin-top: 1rem;
+}
+.content button{
+  display: block;
+  margin: 2rem 0;
+  width: 21%;
+  padding: 0.7rem 0;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background: inherit;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  
+}
+.content .login-button{
+  margin-left: 30px;
+}
+.content button:hover,i:hover{
+  background: #3498db;
+}
+.content .logos{
+  display: flex;
+
+  width: 50%;
+  font-size: 1.9rem;
+  cursor: pointer;;
+  margin-top: 2rem;
+
+  
+}
+.content .logos img{
+  width: 40px;
+  border-radius: 50px;
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./assets/gradient_2.jpg");
+    url("../public/gradient_2.jpg");
+}
+
+/* responsiveness */
+@media(max-width: 1058px){
+  .container{
+    padding: 0 25px;
+  }
+  .content h2{
+    font-size: 4rem;
+  }
+  .content p{
+    display: none;
+  }
+  .content .logos img{
+    margin: 5px 5px;
+  }
+  .content .login-button{
+    margin-left: 20px;
+  }
+  
+}
+@media(max-width: 902px){
+  .content{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+  }
+  .content h2{
+    font-size: 3.5rem;
+  }
+  .content button{
+    width: 90%;
+    margin: 10px 0px;
+    background-color: #011298;
+    color: white;
+   margin-left: 20px;
+    
+  }
+  .content .buttons{
+    flex-direction: column;
+    width: 100%;
+    position: absolute; 
+    bottom: 0; 
+    padding: 70px 20px;
+    background-color: #fff;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
+    
+  }
+  
+  .content .logos{
+    justify-content: center;
+    width: 5%;
+
+  }
+}
+@media(max-width: 562px){
+  .content h2{
+    font-size: 2.5rem;
+  }
+  .content .buttons{
+    flex-direction: column;
+    width: 100%;
+    position: absolute; 
+    bottom: 0; 
+    padding: 20px 10px;
+    background-color: #fff;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
+    justify-content: center;
+  }
 }
