@@ -1,5 +1,5 @@
 import React from "react";
-import "../Navbar.css";
+import "../styles/Navbar.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
