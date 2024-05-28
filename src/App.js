@@ -1,9 +1,11 @@
 import "./App.css";
+import CourseFiles from "./pages/CourseFiles";
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
+      <CourseFiles />
+      {/* <div className="container">
         <div className="content">
           <h2>CBET</h2>
 
@@ -24,7 +26,7 @@ function App() {
           <button className="login-button">Login</button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
