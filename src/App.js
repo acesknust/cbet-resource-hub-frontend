@@ -1,31 +1,15 @@
-import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import landingPage from "./pages/landingpage";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <div className="content">
-          <h2>CBET</h2>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            sed, officia quae eum iusto ratione autem eius minus, nisi
-            laboriosam id ullam aliquam sunt deserunt, magni natus maiores
-            placeat perferendis.
-          </p>
-          <div className="logos">
-            <img src="./acesLogo.jpeg" alt="aceslogo" />
-            <img src="./acesLogo.jpeg" alt="aceslogo" />
-            <img src="./acesLogo.jpeg" alt="aceslogo" />
-            <img src="./acesLogo.jpeg" alt="aceslogo" />
-          </div>
-          <div  className="buttons">
-          <button >Sign-Up</button>
-          <button className="login-button">Login</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<landingPage />} />
+        <Route path="/Home" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
