@@ -1,7 +1,10 @@
 import "../styles/Home.css"
+import Navbar from "../components/Navbar";
 
 function Home() {
   return (
+    <>
+    <Navbar/>
     <div className="courses-Container">
      <h1 className="Heading">Please select a course</h1>
       <div className="course-Container">
@@ -31,6 +34,7 @@ function Home() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
