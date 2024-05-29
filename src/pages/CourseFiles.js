@@ -1,5 +1,5 @@
 import React from 'react';
-import '../coursefiles.css';
+import '../styles/coursefiles.css';
 import { FaBook, FaDownload } from 'react-icons/fa';
 
 function CourseFiles() {
