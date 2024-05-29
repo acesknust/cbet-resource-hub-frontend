@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from "react";
-import '../signin.css';
+import '../styles/signin.css';
 import userIcon from '../assets/user.png';
 import lockIcon from '../assets/lock.png';
 import googleIcon from '../assets/google.png';
