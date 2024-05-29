@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Landingpage from "./pages/landingpage";
 import Home from "./pages/Home";
-import Navbar from "./components/Navbar";
+import SignIn from "./pages/SignIn";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <Route path="/" element={<Landingpage />} />
 
         <Route path="/Home" element={<Home />} />
+        <Route path="/SignIn" element={<SignIn />} />
       </Routes>
     </Router>
   );

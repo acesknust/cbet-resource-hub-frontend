@@ -22,11 +22,8 @@ const Landingpage = () => {
               <img src="./acesLogo.jpeg" alt="aceslogo" />
             </div>
             <div className="buttons">
-              <button>Sign-Up</button>
-              <button className="login-button">Login</button>
-              <button className="login-button">
-                <Link to="/Home">Home</Link>
-              </button>
+            <button className="login-button"><Link to="/SignUp" style={{textDecoration: 'None', color: '#fff'}}>Sign Up</Link></button>
+              <button className="login-button"><Link to="/SignIn" style={{textDecoration: 'None', color: '#fff'}}>Login</Link></button>
             </div>
           </div>
         </div>
