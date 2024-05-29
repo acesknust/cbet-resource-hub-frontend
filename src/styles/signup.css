@@ -187,6 +187,10 @@
   color: #000;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 /* Media Queries for larger screens */
 @media (min-width: 1058px) {
   .container {

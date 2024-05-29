@@ -1,5 +1,6 @@
 import { useState } from "react";
-import '../signup.css';
+import { Link } from "react-router-dom";
+import '../styles/signup.css';
 import userIcon from '../assets/user.png';
 import lockIcon from '../assets/lock.png'
 import googleIcon from '../assets/google.png'
@@ -86,7 +87,7 @@ const SignUp = () => {
           <span
             className="signUpLink"
           >
-            Sign in
+            <Link to="/SignIn" style={{textDecoration: 'None'}}>Sign In</Link>
           </span>
         </p>
       </div>
