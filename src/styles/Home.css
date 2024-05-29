@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* body{
+  position: relative;
+  
+} */
+.Heading{
+  text-align: center;
+  color:  #00007a;
+  font-family: "Poppins", sans-serif;
+  margin-top: 5%;
+  font-size: clamp(1.5rem, 3vw, 1rem);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 20%;
+ left: 50%;
+}
+.course{
+  margin-top: 20px;
+}
+.course img{
+  border-radius: 50%;
+  border: 1px solid #00007a; /* makes the image round */
+  width: 60%; /* makes the image responsive */
+  height: auto; /* maintains the aspect ratio */
+  object-fit: cover; /* scales the image to fit the container */
+  max-width: 100%;
+  /* justify-self: center; */
+margin-left: 50px;
+  /* prevents the image from exceeding its parent width */
+}
+.course h2{
+  text-align: center;
+  font-size: clamp(1.5rem, 2vw, 1rem);
+}
+.course-Container{
+  display: flex;
+  flex-direction: row;
+ /* top: 20%;
+ left: 50%; */
+ transform: translate(-50%, -50%);
+ position: absolute;
+ margin-top: 15%;
+}
+@media (max-width: 768px) {
+  .Heading{
+    margin-top: 3%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /* top: 20%;
+   left: 50%; */
+  }
+  .course-Container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 40%;
+ left: 50%;
+  }
+  .course{
+    margin-top: 50px;
+  }
+  .course h2{
+    text-align: center;
+    font-size: clamp(1rem, 2vw, 0.5rem);
+  }
+  .course img{
+    margin-left: 30px;
+  }
+}
+/* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .course-Container{
+    display: flex;
+  flex-direction: row;
+ top: 700%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ position: absolute;
+  }
+  .Heading{
+    margin-top: 24%;
+  }
+} */
+@media (min-width: 540px) {
+  .course-Container{
+    display: flex;
+    flex-direction: row;
+    top: 50%;
+ left: 50%;
+ position: absolute;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .course-Container{
+    display: flex;
+    flex-direction: row;
+    top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ position: absolute;
+  }
+  .Heading{
+    margin-top: 10%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+   left: 50%;
+  }
+  .course{
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 540px) and (max-width: 540px) {
+  .Heading{
+    margin-top: 10%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+   left: 50%;
+  }
+}
