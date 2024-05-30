@@ -8,8 +8,8 @@ const Landingpage = () => {
         <Link to="/Home" style={{ textDecoration: "None", color: "#fff" }}>
           Home
         </Link>
-        <div className="container">
-          <div className="content">
+        <div className="Landingcontainer">
+          <div className="Landingcontent">
             <h2>CBET</h2>
 
             <p>

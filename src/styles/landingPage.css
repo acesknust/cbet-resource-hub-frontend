@@ -7,29 +7,29 @@
   box-sizing: border-box;
   font-family: "poppins";
 }
-.container{
+.Landingcontainer{
   max-width: 1440px;
   padding: 0 50px;
   margin: 0 auto;
 }
-.content{
+.Landingcontent{
   display: flex;
   flex-direction: column;
   width: 60%;
   justify-content: center;
   height: 90vh;
 }
-.content h2{
+.Landingcontent h2{
   font-size: 4.5rem;
   color: #fff;
   font-family: "ubuntu",sans-serif;
 }
-.content p{
+.Landingcontent p{
   color: #fff;
   line-height: 2;
   margin-top: 1rem;
 }
-.content a{
+.Landingcontent a{
   display: block;
   margin: 2rem 0;
   width: 21%;
@@ -43,13 +43,13 @@
   transition: all 0.3s ease-in-out;
   
 }
-.content .login-button{
+.Landingcontent .login-button{
   margin-left: 30px;
 }
-.content button:hover,i:hover{
+.Landingcontent button:hover,i:hover{
   background: #3498db;
 }
-.content .logos{
+.Landingcontent .logos{
   display: flex;
 
   width: 50%;
@@ -59,7 +59,7 @@
 
 
 }
-.content .logos img{
+.Landingcontent .logos img{
   width: 40px;
   border-radius: 50px;
   transition: all 0.5s ease-in-out;
@@ -81,25 +81,25 @@
 
 /* responsiveness */
 @media(max-width: 1058px){
-  .container{
+  .Landingcontainer{
     padding: 0 25px;
   }
-  .content h2{
+  .Landingcontent h2{
     font-size: 4rem;
   }
-  .content p{
+  .Landingcontent p{
     display: none;
   }
-  .content .logos img{
+  .Landingcontent .logos img{
     margin: 5px 5px;
   }
-  .content .login-button{
+  .Landingcontent .login-button{
     margin-left: 20px;
   }
   
 }
 @media(max-width: 902px){
-  .content{
+  .Landingcontent{
     display: flex;
     flex-direction: column;
     width:100%;
@@ -107,10 +107,10 @@
     height: 90vh;
     align-items: center;
   }
-  .content h2{
+  .Landingcontent h2{
     font-size: 3.5rem;
   }
-  .content a{
+  .Landingcontent a{
     width: 90%;
     margin: 10px 0px;
     background-color: #011298;
@@ -118,7 +118,7 @@
    margin-left: 20px;
     
   }
-  .content .buttons{
+  .Landingcontent .buttons{
     flex-direction: column;
     width: 100%;
     position: absolute; 
@@ -131,17 +131,17 @@
     
   }
   
-  .content .logos{
+  .Landingcontent .logos{
     justify-content: center;
     width: 5%;
 
   }
 }
 @media(max-width: 562px){
-  .content h2{
+  .Landingcontent h2{
     font-size: 2.5rem;
   }
-  .content .buttons{
+  .Landingcontent .buttons{
     flex-direction: column;
     width: 100%;
     position: absolute; 
