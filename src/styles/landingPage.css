@@ -29,7 +29,7 @@
   line-height: 2;
   margin-top: 1rem;
 }
-.content button{
+.content a{
   display: block;
   margin: 2rem 0;
   width: 21%;
@@ -38,7 +38,7 @@
   font-size: 1rem;
   border-radius: 20px;
   border: 1px solid #ddd;
-  background: inherit;
+  background-color: inherit;
   color: #fff;
   transition: all 0.3s ease-in-out;
   
@@ -69,6 +69,7 @@
 .buttons{
   display: flex;
   flex-direction: row;
+ 
  
 }
 
@@ -109,7 +110,7 @@
   .content h2{
     font-size: 3.5rem;
   }
-  .content button{
+  .content a{
     width: 90%;
     margin: 10px 0px;
     background-color: #011298;
