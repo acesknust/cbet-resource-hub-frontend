@@ -1,6 +1,7 @@
 import React from 'react';
-import '../coursefiles.css';
+import '../styles/coursefiles.css';
 import { FaBook, FaDownload } from 'react-icons/fa';
+import Navbar from '../components/Navbar';
 
 function CourseFiles() {
   const courses = [
@@ -12,6 +13,8 @@ function CourseFiles() {
   ];
 
   return (
+    <>
+    <Navbar/>
     <div className="container">
     <h1 className="heading">ACES Course Files</h1>
     <div className="content">
@@ -25,6 +28,7 @@ function CourseFiles() {
         </ul>
     </div>
   </div>
+  </>
   );
 }
 
