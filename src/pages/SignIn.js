@@ -13,7 +13,7 @@ const SignIn = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="container">
+    <div className="SignIncontainer">
       <h1 className="signInText">Sign in</h1>
       <div className="part2">
         <h2 className="welcomeText">Welcome back</h2>
