@@ -1,4 +1,5 @@
 import "../styles/Home.css"
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 function Home() {
@@ -10,26 +11,34 @@ function Home() {
       <div className="course-Container">
          <div>
         <div className="course">
+        <Link to="/CourseFiles" style={{textDecoration: 'None', color: '#fff'}}>
           <img src="./acesLogo.jpeg" alt="computer enginerring logo" />
-          <h2>computer</h2>
+          <h2>Computer</h2>
           <h2>Engineering</h2>
+        </Link>
         </div>
         <div className="course">
+        <Link to="/CourseFiles" style={{textDecoration: 'None', color: '#fff'}}>
           <img src="./acesLogo.jpeg" alt="computer enginerring logo" />
-          <h2>computer</h2>
+          <h2>Computer</h2>
           <h2>Engineering</h2>
+        </Link>
         </div>
         </div>
         <div>
         <div className="course">
+        <Link to="/CourseFiles" style={{textDecoration: 'None', color: '#fff'}}>
           <img src="./acesLogo.jpeg" alt="computer enginerring logo" />
-          <h2>computer</h2>
+          <h2>Computer</h2>
           <h2>Engineering</h2>
+        </Link>
         </div>
         <div className="course">
+        <Link to="/CourseFiles" style={{textDecoration: 'None', color: '#fff'}}>
           <img src="./acesLogo.jpeg" alt="computer enginerring logo" />
-          <h2>computer</h2>
+          <h2>Computer</h2>
           <h2>Engineering</h2>
+        </Link>
         </div>
         </div>
       </div>
