@@ -208,13 +208,14 @@ color: #002366;
       padding: 40px;
     }
 
-    .content h2 {
+    .cf-content h2 {
         position: static;
-        color: #002366;
+        /* color: #002366; */
+        color: white;
         margin-bottom: 20px;
         }
         
-        .content ul {
+        .cf-content ul {
             position: static;
             list-style: none;
             text-align: center;
@@ -224,7 +225,7 @@ color: #002366;
     
             }
             
-            .content li {
+            .cf-content li {
             background-color: #f0f0f0;
             width: calc(90% - 10px);
             margin-bottom: 10px;
@@ -238,11 +239,11 @@ color: #002366;
             margin-right: auto;
             }
         
-        .content li:hover {
+        .cf-content li:hover {
         background-color: #e0e0e0;
         }
         
-        .content i {
+        .cf-content i {
         color: #002366;
         }
   }

@@ -11,7 +11,7 @@ function CourseFiles() {
     "Comm. Skills",
     "Environ. Studies"
   ];
-
+ 
   return (
     <>
     <Navbar />
