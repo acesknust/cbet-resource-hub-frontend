@@ -30,6 +30,7 @@ const Landingpage = () => {
                <Link
                  to="/SignUp"
                  style={{ textDecoration: "None", textAlign:"center"}}
+                 className="login-button"
                >
                  <button style={{ background:"inherit", border:"none", color:"white" }}>Sign Up</button>
                </Link>

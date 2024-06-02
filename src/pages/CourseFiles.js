@@ -1,5 +1,6 @@
-import React from 'react';
+import React from "react";
 import '../styles/coursefiles.css';
+import { Link } from "react-router-dom";
 import { FaBook, FaDownload } from 'react-icons/fa';
 import Navbar from '../components/Navbar';
 
@@ -26,6 +27,13 @@ function CourseFiles() {
             </li>
           ))}
         </ul>
+        <Link
+          to="/Home"
+          style={{ textDecoration: "None", textAlign:"center"}}
+          className="go-back"
+        >
+          <button style={{ background:"inherit", border:"none", color:"#000" }} className='go-back-icon'>Back</button>
+        </Link>
     </div>
   </div>
   </>

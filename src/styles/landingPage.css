@@ -49,6 +49,11 @@
 .content button:hover,i:hover{
   background: #3498db;
 }
+
+.login-button:hover {
+  background-color: #3498db;
+}
+
 .content .logos{
   display: flex;
 
