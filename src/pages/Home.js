@@ -11,14 +11,14 @@ function Home() {
       <div className="course-Container">
          <div>
         <div className="course">
-        <Link to="/CourseFiles" style={{textDecoration: 'None', color: '#fff'}}>
+        <Link to="/CourseFiles" style={{textDecoration: 'None'}}>
           <img src="./acesLogo.jpeg" alt="computer enginerring logo" />
           <h2>Computer</h2>
           <h2>Engineering</h2>
         </Link>
         </div>
         <div className="course">
-        <Link to="/CourseFiles" style={{textDecoration: 'None', color: '#fff'}}>
+        <Link to="/CourseFiles" style={{textDecoration: 'None'}}>
           <img src="./acesLogo.jpeg" alt="computer enginerring logo" />
           <h2>Computer</h2>
           <h2>Engineering</h2>
@@ -27,14 +27,14 @@ function Home() {
         </div>
         <div>
         <div className="course">
-        <Link to="/CourseFiles" style={{textDecoration: 'None', color: '#fff'}}>
+        <Link to="/CourseFiles" style={{textDecoration: 'None'}}>
           <img src="./acesLogo.jpeg" alt="computer enginerring logo" />
           <h2>Computer</h2>
           <h2>Engineering</h2>
         </Link>
         </div>
         <div className="course">
-        <Link to="/CourseFiles" style={{textDecoration: 'None', color: '#fff'}}>
+        <Link to="/CourseFiles" style={{textDecoration: 'None'}}>
           <img src="./acesLogo.jpeg" alt="computer enginerring logo" />
           <h2>Computer</h2>
           <h2>Engineering</h2>

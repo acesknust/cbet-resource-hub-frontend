@@ -5,9 +5,6 @@ const Landingpage = () => {
   return (
     <div>
       <div className="App">
-        <Link to="/Home" style={{ textDecoration: "None", color: "#fff" }}>
-          Home
-        </Link>
         <div className="Landingcontainer">
           <div className="Landingcontent">
             <h2>CBET</h2>
@@ -47,7 +44,11 @@ const Landingpage = () => {
 
               <Link
                 to="/SignIn"
-                style={{ textDecoration: "None", textAlign: "center" }}
+                style={{
+                  textDecoration: "None",
+                  textAlign: "center",
+                  marginLeft: 15,
+                }}
                 className="login-button"
               >
                 <button
@@ -63,7 +64,11 @@ const Landingpage = () => {
 
               <Link
                 to="/Home"
-                style={{ textDecoration: "None", textAlign: "center" }}
+                style={{
+                  textDecoration: "None",
+                  textAlign: "center",
+                  marginLeft: 15,
+                }}
                 className="login-button"
               >
                 <button
