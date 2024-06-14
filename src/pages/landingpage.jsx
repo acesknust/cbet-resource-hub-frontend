@@ -25,19 +25,56 @@ const Landingpage = () => {
               <img src="./acesLogo.jpeg" alt="aceslogo" />
             </div>
             <div className="buttons">
+              {/* <button className="login-button"><Link to="/SignUp" style={{textDecoration: 'None', color: '#fff'}}>Sign Up</Link></button>
+              <button className="login-button"><Link to="/SignIn" style={{textDecoration: 'None', color: '#fff'}}>Login</Link></button>
+              <button className="login-button"><Link to="/Home" style={{textDecoration: 'None', color: '#fff'}}>Home</Link></button> */}
+
               <Link
                 to="/SignUp"
-                style={{ textDecoration: "None", textAlign:"center"}}
+                style={{ textDecoration: "None", textAlign: "center" }}
+                className="login-button"
               >
-                <button style={{ background:"inherit", border:"none", color:"white" }}>Sign Up</button>
+                <button
+                  style={{
+                    background: "inherit",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  Sign Up
+                </button>
               </Link>
 
               <Link
                 to="/SignIn"
-                style={{ textDecoration: "None", textAlign:"center" }}
+                style={{ textDecoration: "None", textAlign: "center" }}
                 className="login-button"
               >
-                <button  style={{ background:"inherit", border:"none", color:"white" }}>Login</button>
+                <button
+                  style={{
+                    background: "inherit",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  Login
+                </button>
+              </Link>
+
+              <Link
+                to="/Home"
+                style={{ textDecoration: "None", textAlign: "center" }}
+                className="login-button"
+              >
+                <button
+                  style={{
+                    background: "inherit",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  Home
+                </button>
               </Link>
             </div>
           </div>

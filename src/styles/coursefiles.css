@@ -1,4 +1,4 @@
-.container {
+.cf-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,9 +8,9 @@
   }
 
 
-.heading {
+.cf-heading {
     color: #ffffff;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 10px;
     padding: 0 20px;
     text-align: left;
@@ -19,7 +19,7 @@
   }
   
 
-.content {
+.cf-content {
     background-color: #ffffff;
     font-weight: bold;
     border-top-left-radius: 50px;
@@ -36,7 +36,7 @@
   }
   
 
-.content h2 {
+.cf-content h2 {
     position: absolute;
     top: 5%;
     margin-top: 0;
@@ -44,7 +44,7 @@
     margin-bottom: 20px;
 }
 
-.content ul {
+.cf-content ul {
     position: absolute;
     top: 17%;
     list-style: none;
@@ -55,7 +55,7 @@
 
     }
     
-    .content li {
+    .cf-content li {
     background-color: #f0f0f0;
     width: calc(90% - 10px);
     margin-bottom: 10px;
@@ -69,21 +69,36 @@
     margin-right: auto;
     }
 
-.content li:hover {
+.cf-content li:hover {
 background-color: #e0e0e0;
 }
 
-.content i {
+.cf-content i {
 color: #002366;
 }
 
+.go-back {
+  position: inherit;
+  width: 30px;
+  height: 30px;
+  bottom: 12%;
+}
+
+.go-back-icon {
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+}
+
 @media (min-width: 1058px) {
-    .container {
+    .cf-container {
       padding-top: 20px;
       justify-content: center;
     }
   
-    .content {
+    .cf-content {
       width: 60%;
       max-width: 600px;
       height: auto;
@@ -93,13 +108,13 @@ color: #002366;
       bottom: auto;
       padding: 40px;
     }
-    .content h2 {
+    .cf-content h2 {
         position: static;
         color: #002366;
         margin-bottom: 20px;
         }
         
-        .content ul {
+        .cf-content ul {
             position: static;
         list-style: none;
         text-align: center;
@@ -109,7 +124,7 @@ color: #002366;
 
         }
         
-        .content li {
+        .cf-content li {
         background-color: #f0f0f0;
         width: calc(90% - 10px);
         margin-bottom: 10px;
@@ -123,23 +138,40 @@ color: #002366;
         margin-right: auto;
         }
         
-        .content li:hover {
+        .cf-content li:hover {
         background-color: #e0e0e0;
         }
         
-        .content i {
+        .cf-content i {
         color: #002366;
+        }
+
+        .go-back {
+          /* position: absolute; */
+          position: static;
+          width: 30px;
+          height: 30px;
+          /* top: 20%;
+          left: 2%; */
+        }
+
+        .go-back-icon {
+          color: #ffffff;
+          width: 30px;
+          height: 30px;
+          padding: 0;
+          margin: 0;
         }
   }
   
   
   @media (min-width: 902px) {
-    .container {
+    .cf-container {
       padding-top: 20px;
       justify-content: center;
     }
   
-    .content {
+    .cf-content {
       width: 60%;
       max-width: 600px;
       height: auto;
@@ -150,13 +182,13 @@ color: #002366;
       padding: 40px;
     }
 
-    .content h2 {
-        position: static;
+    .cf-content h2 {
+        /* position: static; */
         color: #002366;
         margin-bottom: 20px;
         }
         
-        .content ul {
+        .cf-content ul {
             position: static;
             list-style: none;
             text-align: center;
@@ -166,7 +198,7 @@ color: #002366;
     
             }
             
-            .content li {
+            .cf-content li {
             background-color: #f0f0f0;
             width: calc(90% - 10px);
             margin-bottom: 10px;
@@ -180,24 +212,41 @@ color: #002366;
             margin-right: auto;
             }
         
-        .content li:hover {
+        .cf-content li:hover {
         background-color: #e0e0e0;
         }
         
-        .content i {
+        .cf-content i {
         color: #002366;
+        }
+
+        .go-back {
+          /* position: absolute; */
+          position: static;
+          width: 30px;
+          height: 30px;
+          /* top: 20%;
+          left: 2%; */
+        }
+
+        .go-back-icon {
+          color: #ffffff;
+          width: 30px;
+          height: 30px;
+          padding: 0;
+          margin: 0;
         }
   
   }
   
   
   @media (min-width: 608px) {
-    .container {
+    .cf-container {
       padding-top: 20px;
       justify-content: center;
     }
   
-    .content {
+    .cf-content {
       width: 60%;
       max-width: 600px;
       height: auto;
@@ -208,13 +257,13 @@ color: #002366;
       padding: 40px;
     }
 
-    .content h2 {
+    .cf-content h2 {
         position: static;
         color: #002366;
         margin-bottom: 20px;
         }
         
-        .content ul {
+        .cf-content ul {
             position: static;
             list-style: none;
             text-align: center;
@@ -224,7 +273,7 @@ color: #002366;
     
             }
             
-            .content li {
+            .cf-content li {
             background-color: #f0f0f0;
             width: calc(90% - 10px);
             margin-bottom: 10px;
@@ -238,11 +287,28 @@ color: #002366;
             margin-right: auto;
             }
         
-        .content li:hover {
+        .cf-content li:hover {
         background-color: #e0e0e0;
         }
         
-        .content i {
+        .cf-content i {
         color: #002366;
+        }
+
+        .go-back {
+          /* position: absolute; */
+          position: static;
+          width: 30px;
+          height: 30px;
+          /* top: 20%;
+          left: 2%; */
+        }
+
+        .go-back-icon {
+          color: #ffffff;
+          width: 30px;
+          height: 30px;
+          padding: 0;
+          margin: 0;
         }
   }
