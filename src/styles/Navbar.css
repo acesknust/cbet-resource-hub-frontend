@@ -188,5 +188,23 @@
   .logout-button:hover {
     background-color: #ff3737; /* darker red on hover */
   }
+  
 }
+
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link span {
+  margin-right: 5px; /* Adjust the spacing as needed */
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+
 
