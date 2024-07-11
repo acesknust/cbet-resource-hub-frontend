@@ -92,7 +92,7 @@
 
 .iconContainer {
   position: relative;
-  margin-right: -11px;
+  margin-right: -12px;
 }
 
 .icon {
@@ -202,7 +202,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
     bottom: auto;
-    padding: 40px;
+    padding: 10px 40px 14px 40px;
   }
 
   .signInText {
@@ -244,6 +244,7 @@
     width: 30%;
     padding: 15px;
     font-size: 16px;
+    margin-bottom: 10px;
   }
 
   .forgotPassword {
@@ -251,17 +252,19 @@
   }
 
   .socialIcons {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .socialIcon {
     width: 30px;
     height: 30px;
-    margin: 10px;
+    margin: 5px;
   }
 
   .signUpText {
     font-size: 18px;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -280,7 +283,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
     bottom: auto;
-    padding: 40px;
+    padding: 10px 40px 14px 40px;
   }
 
   .signInText {
@@ -315,7 +318,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
     bottom: auto;
-    padding: 40px;
+    padding: 10px 40px 14px 40px;
   }
 
   .signInText {
